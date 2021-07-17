@@ -11,7 +11,7 @@ class Kosar():
     def __repr__(self):
         return f"{self.hazai} {self.idegen} {self.hpont} {self.vpont} {self.helyszin} {self.ido}"
 lista= []
-f=open("eredmenyek.txt",encoding="UTF-8")
+f=open("eredmenyek.csv",encoding="UTF-8")
 for xd,i in enumerate(f):
     if xd!=0:
         i=i.strip().split(";")
